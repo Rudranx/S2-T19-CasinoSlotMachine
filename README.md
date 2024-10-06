@@ -1,7 +1,7 @@
 # S2-T19-CasinoSlotMachine
 
-# Write your mini-project title
-Casino slot machine
+# Casino slot machine
+
 <!-- First Section -->
 ## Team Details
 <details>
