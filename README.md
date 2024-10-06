@@ -43,7 +43,7 @@
 <details>
   <summary>Detail</summary>
   
-  ![sample](slot_machine.drawio)
+  <img>slot_machine.png</img>
 
 </details>
 
