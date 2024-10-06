@@ -75,8 +75,7 @@
 <details>
   <summary>Detail</summary>
   
- 1. https://www.analog.com/en/resources/design-notes/random-number-generation-using-lfsr.
- html
+ 1. https://www.analog.com/en/resources/design-notes/random-number-generation-using-lfsr
  2. https://electronics.stackexchange.com/questions/229590/logic-gates-creating-a-digital-counter
  3. https://stackoverflow.com/questions/4137927/slot-machine-payout-calculation
    
