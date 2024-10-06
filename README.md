@@ -75,8 +75,10 @@
 <details>
   <summary>Detail</summary>
   
-> BBC News. *India train crash: At least 275 dead in Odisha, 2023*. Accessed: 2024-09-30.  
-   [(https://www.bbc.com/news)](https://www.bbc.com/news/world-asia-india-65793257)
+ 1. https://www.analog.com/en/resources/design-notes/random-number-generation-using-lfsr.
+ html
+ 2. https://electronics.stackexchange.com/questions/229590/logic-gates-creating-a-digital-counter
+ 3. https://stackoverflow.com/questions/4137927/slot-machine-payout-calculation
    
 </details>
 
