@@ -60,7 +60,7 @@
 <details>
   <summary>Detail</summary>
 
-  > Update a neat logisim circuit diagram
+  <img src="Logisim/Logisim-snapshot.png">
 </details>
 
 <!-- Fifth Section -->
