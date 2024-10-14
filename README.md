@@ -67,10 +67,8 @@
 
 <!-- Fifth Section -->
 ## Verilog Code
-## Verilog Code
 <details>
   <summary>Detail</summary>
-  <code>
       
     module LFSR_3bit (input clk,input reset,input enable,input [2:0] seed,output reg [2:0] random_num);
     reg [2:0] lfsr;
@@ -190,14 +188,16 @@
         random_num = lfsr;
     end
     endmodule
-  </code>
+
 
 ---
 ### Test bench File
-<code>
-  `timescale 1ns / 1ps
-`include "slot.v"
-module tb_rng_system;
+
+
+
+    `timescale 1ns / 1ps
+    `include "slot.v"
+    module tb_rng_system;
     reg clk;
     reg reset;
     reg button_press;
@@ -279,7 +279,7 @@ module tb_rng_system;
         $display("Simulation complete.");
         $finish;
     end
-endmodule
+    endmodule
 
 </code>
 
