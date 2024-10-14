@@ -69,8 +69,8 @@
 ## Verilog Code
 <details>
   <summary>Detail</summary>
-
-  > Neatly update the Verilog code in code style only.
+    Click to view Verilog file
+    Click to view TestBench file
 </details>
 
 ## References
