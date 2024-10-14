@@ -69,7 +69,11 @@
 ## Verilog Code
 <details>
   <summary>Detail</summary>
-      
+
+    // S2-T19
+    //Rudransh Kumar Ankodia, 231CS249
+    //Mohnish Hemanth Kumar, 231CS235
+    //Aman Kumar Singh, 231CS206
     module LFSR_3bit (input clk,input reset,input enable,input [2:0] seed,output reg [2:0] random_num);
     reg [2:0] lfsr;
     always @(posedge clk or posedge reset) begin
@@ -194,7 +198,10 @@
 ### Test bench File
 
 
-
+    // S2-T19
+    //Rudransh Kumar Ankodia, 231CS249
+    //Mohnish Hemanth Kumar, 231CS235
+    //Aman Kumar Singh, 231CS206
     `timescale 1ns / 1ps
     `include "slot.v"
     module tb_rng_system;
@@ -281,7 +288,7 @@
     end
     endmodule
 
-</code>
+
 
  </details>
 
