@@ -71,6 +71,7 @@
 <details>
   <summary>Detail</summary>
   <code>
+      
     module LFSR_3bit (input clk,input reset,input enable,input [2:0] seed,output reg [2:0] random_num);
     reg [2:0] lfsr;
     always @(posedge clk or posedge reset) begin
@@ -82,18 +83,19 @@
     end
     always @(*) begin
         random_num = lfsr;
-    end
-endmodule
-module rng_system_gate (input clk,input reset,input button_press,output reg [2:0] rng1,output reg [2:0] rng2,output reg [2:0] rng3);
+      
+      end
+     endmodule
+     
+     module rng_system_gate (input clk,input reset,input button_press,output reg [2:0] rng1,output reg [2:0] rng2,output reg [2:0] rng3);
     wire clk_enable = button_press;
     wire [2:0] seed1 = 3'b101;
     wire [2:0] seed2 = 3'b110;
     wire [2:0] seed3 = 3'b111;
     reg [3:0] trial_count;
     wire [2:0] rng1_wire;
-    wire [2:0] rng2_wire;
-    wire [2:0] rng3_wire;
-
+    wire [2:0] rng2_wire;         
+    wire [2:0] rng3_wire;        
     LFSR_3bit_gate rng_inst1 (.clk(clk), .reset(reset), .enable(clk_enable), .seed(seed1), .random_num(rng1_wire));
     LFSR_3bit_gate rng_inst2 (.clk(clk), .reset(reset), .enable(clk_enable), .seed(seed2), .random_num(rng2_wire));
     LFSR_3bit_gate rng_inst3 (.clk(clk), .reset(reset), .enable(clk_enable), .seed(seed3), .random_num(rng3_wire));
@@ -119,10 +121,10 @@ module rng_system_gate (input clk,input reset,input button_press,output reg [2:0
             end
         end
     end
-endmodule
+    endmodule
 
 
-module rng_system (input clk,input reset,input button_press,output reg [2:0] rng1,output reg [2:0] rng2,output reg [2:0] rng3);
+    module rng_system (input clk,input reset,input button_press,output reg [2:0] rng1,output reg [2:0] rng2,output reg [2:0] rng3);
     wire clk_enable = button_press;
     wire [2:0] seed1 = 3'b101;
     wire [2:0] seed2 = 3'b110;
@@ -156,8 +158,8 @@ module rng_system (input clk,input reset,input button_press,output reg [2:0] rng
         end
     end
 
-endmodule
-module DFF (
+    endmodule
+    module DFF (
     input D, input clk, input reset, output reg Q);
     always @(posedge clk or posedge reset) begin
         if (reset) 
@@ -165,15 +167,15 @@ module DFF (
         else
             Q <= D;
     end
-endmodule
+    endmodule
 
-module XOR2 (
+    module XOR2 (
     input A, input B, output Y
-);
+       );
     assign Y = A ^ B;
-endmodule
+    endmodule
 
-module LFSR_3bit_gate (input clk, input reset, input enable, input [2:0] seed, output reg [2:0] random_num);
+    module LFSR_3bit_gate (input clk, input reset, input enable, input [2:0] seed, output reg [2:0] random_num);
     reg [2:0] lfsr;
     wire feedback;
     assign feedback = lfsr[2] ^ lfsr[0];
@@ -187,7 +189,7 @@ module LFSR_3bit_gate (input clk, input reset, input enable, input [2:0] seed, o
     always @(*) begin
         random_num = lfsr;
     end
-endmodule
+    endmodule
   </code>
 
 ---
