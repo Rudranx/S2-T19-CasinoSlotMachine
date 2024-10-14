@@ -230,7 +230,7 @@
     //Mohnish Hemanth Kumar, 231CS235
     //Aman Kumar Singh, 231CS206
     `timescale 1ns / 1ps
-    `include "slot.v"
+    `include "S2-T19.v"
     module tb_rng_system;
     reg clk;
     reg reset;
@@ -264,7 +264,7 @@
         i = 0;
         count_500 = 0;
         $display("\t  Trial\t  Behavioral Level\t  Gate Level\t\tMoney");
-        $display("\t\tRNG1\tRNG2\tRNG3\tRNG1\tRNG2\tRNG3");
+        $display("\t    sDisplay1 Display2 Display3 Display1 Display2 Display3");
         for (integer trial = 1; trial <= 24; trial = trial + 1) begin
             button_press = 1;
             #500;
