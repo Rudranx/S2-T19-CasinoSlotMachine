@@ -60,7 +60,7 @@
 <details>
   <summary>Detail</summary>
 
-  <img src="Logisim/Logisim-snapshot.png">
+  <img src="Snapshots/Logisim-snapshot.png">
 </details>
 
 <!-- Fifth Section -->
