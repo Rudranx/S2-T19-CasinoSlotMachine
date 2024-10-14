@@ -43,7 +43,7 @@
 <details>
   <summary>Detail</summary>
   
-  <img src = "Snapshots/slot_machine1.png">
+  <img src = "Snapshots/slot_machine3.png">
 
 </details>
 
