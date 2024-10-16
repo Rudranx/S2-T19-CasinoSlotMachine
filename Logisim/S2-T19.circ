@@ -237,155 +237,155 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(710,460)" to="(720,460)"/>
     <wire from="(850,260)" to="(930,260)"/>
     <wire from="(580,330)" to="(590,330)"/>
-    <comp lib="0" loc="(60,730)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="6" loc="(1199,224)" name="Text">
-      <a name="text" val="Aman Kumar Singh 231CS206"/>
-      <a name="font" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="1" loc="(530,310)" name="AND Gate">
+    <comp lib="1" loc="(540,230)" name="AND Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="6" loc="(52,849)" name="Text">
-      <a name="text" val="START"/>
-      <a name="font" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="6" loc="(1216,197)" name="Text">
-      <a name="text" val="Rudransh Kumar Ankodia 231CS249"/>
-      <a name="font" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="6" loc="(1216,170)" name="Text">
-      <a name="text" val="Mohnish Hemanth Kumar 231CS235"/>
-      <a name="font" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="6" loc="(71,329)" name="Text">
-      <a name="text" val="Clock 2"/>
-    </comp>
-    <comp lib="1" loc="(530,440)" name="AND Gate">
+    <comp lib="1" loc="(530,310)" name="AND Gate">
       <a name="size" val="30"/>
     </comp>
     <comp lib="0" loc="(80,410)" name="Clock">
       <a name="highDuration" val="5"/>
       <a name="lowDuration" val="2"/>
     </comp>
-    <comp loc="(710,420)" name="bcd-to-7 segment decoder">
-      <a name="label" val="BCD to 7 Segment Decoder"/>
+    <comp lib="6" loc="(1057,628)" name="Text">
+      <a name="text" val="2. Click on the &quot;START&quot; Button to start the game"/>
     </comp>
-    <comp lib="6" loc="(49,758)" name="Text">
-      <a name="text" val=" Pay 500"/>
-      <a name="font" val="SansSerif bold 12"/>
+    <comp lib="6" loc="(70,440)" name="Text">
+      <a name="text" val="Clock 1"/>
     </comp>
-    <comp lib="6" loc="(1111,628)" name="Text">
-      <a name="text" val="2. Click on the &quot;START&quot; Button to reset the circuit and start the game"/>
-    </comp>
-    <comp lib="6" loc="(649,105)" name="Text">
-      <a name="text" val="Overall Circuit"/>
-      <a name="font" val="SansSerif plain 16"/>
-    </comp>
+    <comp lib="5" loc="(910,160)" name="7-Segment Display"/>
     <comp lib="0" loc="(80,300)" name="Clock">
       <a name="highDuration" val="7"/>
-    </comp>
-    <comp lib="6" loc="(1213,134)" name="Text">
-      <a name="text" val="Team ID: S2-T19"/>
-      <a name="font" val="SansSerif bold 18"/>
-    </comp>
-    <comp lib="6" loc="(994,489)" name="Text">
-      <a name="text" val="Display 3"/>
-    </comp>
-    <comp lib="6" loc="(52,918)" name="Text">
-      <a name="text" val="PLAY"/>
-      <a name="font" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="5" loc="(920,460)" name="7-Segment Display"/>
-    <comp lib="4" loc="(300,470)" name="Counter">
-      <a name="width" val="4"/>
-      <a name="max" val="0xf"/>
-    </comp>
-    <comp loc="(620,310)" name="random-number-generator">
-      <a name="label" val="Random Number Generator"/>
-    </comp>
-    <comp lib="6" loc="(1017,698)" name="Text">
-      <a name="text" val="5. Click on END to end the game"/>
-    </comp>
-    <comp lib="6" loc="(984,340)" name="Text">
-      <a name="text" val="Display 2"/>
-    </comp>
-    <comp lib="6" loc="(50,804)" name="Text">
-      <a name="text" val="END"/>
-      <a name="font" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="0" loc="(80,220)" name="Clock">
-      <a name="highDuration" val="3"/>
-    </comp>
-    <comp lib="6" loc="(1087,603)" name="Text">
-      <a name="text" val="1.Go to Simulate and make sure that 'Ticks Enabled' is ON"/>
-    </comp>
-    <comp lib="6" loc="(1165,650)" name="Text">
-      <a name="text" val="3. Push and hold the &quot;PLAY&quot; Button to start the machine and release it to get your result "/>
-    </comp>
-    <comp lib="5" loc="(60,780)" name="Button"/>
-    <comp lib="6" loc="(1088,566)" name="Text">
-      <a name="text" val="Instructions"/>
-      <a name="font" val="SansSerif plain 20"/>
-    </comp>
-    <comp lib="5" loc="(60,890)" name="Button"/>
-    <comp lib="6" loc="(52,699)" name="Text">
-      <a name="text" val="Pay 5000"/>
-      <a name="font" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="6" loc="(980,190)" name="Text">
-      <a name="text" val="Display 1"/>
-    </comp>
-    <comp loc="(160,560)" name="binary-sequence-generator-2">
-      <a name="label" val="Binary Sequence Generator"/>
-    </comp>
-    <comp loc="(730,310)" name="bcd-to-7 segment decoder">
-      <a name="label" val="Decoder"/>
     </comp>
     <comp lib="1" loc="(230,500)" name="OR Gate">
       <a name="facing" val="north"/>
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(540,230)" name="AND Gate">
-      <a name="size" val="30"/>
+    <comp lib="5" loc="(60,780)" name="Button"/>
+    <comp lib="6" loc="(649,105)" name="Text">
+      <a name="text" val="Overall Circuit"/>
+      <a name="font" val="SansSerif plain 16"/>
     </comp>
-    <comp lib="6" loc="(1109,673)" name="Text">
-      <a name="text" val="4. Click on Pay 500 or Pay 5000 to increase the chances of winning"/>
+    <comp lib="0" loc="(80,220)" name="Clock">
+      <a name="highDuration" val="3"/>
     </comp>
     <comp lib="0" loc="(60,670)" name="Pin">
       <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="5" loc="(920,460)" name="7-Segment Display"/>
+    <comp loc="(620,310)" name="random-number-generator">
+      <a name="label" val="Random Number Generator"/>
+    </comp>
+    <comp lib="6" loc="(994,489)" name="Text">
+      <a name="text" val="Display 3"/>
     </comp>
     <comp loc="(170,640)" name="binary-sequence-generator-1">
       <a name="label" val="Binary Sequence Generator"/>
     </comp>
     <comp lib="5" loc="(910,310)" name="7-Segment Display"/>
-    <comp lib="5" loc="(60,820)" name="Button"/>
-    <comp lib="6" loc="(69,248)" name="Text">
-      <a name="text" val="Clock 3"/>
+    <comp loc="(160,560)" name="binary-sequence-generator-2">
+      <a name="label" val="Binary Sequence Generator"/>
     </comp>
-    <comp lib="6" loc="(649,65)" name="Text">
-      <a name="text" val="CASINO SLOT MACHINE"/>
-      <a name="font" val="Bell MT bold 28"/>
+    <comp lib="6" loc="(71,329)" name="Text">
+      <a name="text" val="Clock 2"/>
+    </comp>
+    <comp lib="4" loc="(300,470)" name="Counter">
+      <a name="width" val="4"/>
+      <a name="max" val="0xf"/>
+    </comp>
+    <comp lib="6" loc="(984,340)" name="Text">
+      <a name="text" val="Display 2"/>
     </comp>
     <comp loc="(630,440)" name="random-number-generator">
       <a name="label" val="Random Number Generator"/>
     </comp>
-    <comp loc="(620,220)" name="random-number-generator">
-      <a name="label" val="Random Number Generator"/>
+    <comp lib="6" loc="(1109,673)" name="Text">
+      <a name="text" val="4. Click on Pay 500 or Pay 5000 to increase the chances of winning"/>
+    </comp>
+    <comp lib="6" loc="(1017,698)" name="Text">
+      <a name="text" val="5. Click on END to end the game"/>
+    </comp>
+    <comp lib="6" loc="(1216,170)" name="Text">
+      <a name="text" val="Mohnish Hemanth Kumar 231CS235"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(1213,134)" name="Text">
+      <a name="text" val="Team ID: S2-T19"/>
+      <a name="font" val="SansSerif bold 18"/>
+    </comp>
+    <comp lib="6" loc="(1088,566)" name="Text">
+      <a name="text" val="Instructions"/>
+      <a name="font" val="SansSerif plain 20"/>
+    </comp>
+    <comp lib="6" loc="(52,849)" name="Text">
+      <a name="text" val="START"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp loc="(710,420)" name="bcd-to-7 segment decoder">
+      <a name="label" val="BCD to 7 Segment Decoder"/>
+    </comp>
+    <comp lib="1" loc="(390,550)" name="OR Gate"/>
+    <comp lib="6" loc="(980,190)" name="Text">
+      <a name="text" val="Display 1"/>
+    </comp>
+    <comp lib="1" loc="(530,440)" name="AND Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="6" loc="(52,699)" name="Text">
+      <a name="text" val="Pay 5000"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="5" loc="(60,890)" name="Button"/>
+    <comp lib="6" loc="(52,918)" name="Text">
+      <a name="text" val="PLAY"/>
+      <a name="font" val="SansSerif bold 12"/>
     </comp>
     <comp lib="6" loc="(285,441)" name="Text">
       <a name="text" val="4 Bit Counter"/>
       <a name="font" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="6" loc="(70,440)" name="Text">
-      <a name="text" val="Clock 1"/>
+    <comp lib="6" loc="(1216,197)" name="Text">
+      <a name="text" val="Rudransh Kumar Ankodia 231CS249"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(60,730)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
     <comp loc="(710,160)" name="bcd-to-7 segment decoder">
       <a name="label" val="BCD to 7 Segment Decoder"/>
     </comp>
-    <comp lib="5" loc="(910,160)" name="7-Segment Display"/>
-    <comp lib="1" loc="(390,550)" name="OR Gate"/>
+    <comp lib="5" loc="(60,820)" name="Button"/>
+    <comp lib="6" loc="(69,248)" name="Text">
+      <a name="text" val="Clock 3"/>
+    </comp>
+    <comp lib="6" loc="(1199,224)" name="Text">
+      <a name="text" val="Aman Kumar Singh 231CS206"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(50,804)" name="Text">
+      <a name="text" val="END"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(1165,650)" name="Text">
+      <a name="text" val="3. Push and hold the &quot;PLAY&quot; Button to start the machine and release it to get your result "/>
+    </comp>
+    <comp loc="(730,310)" name="bcd-to-7 segment decoder">
+      <a name="label" val="Decoder"/>
+    </comp>
+    <comp lib="6" loc="(1087,603)" name="Text">
+      <a name="text" val="1.Go to Simulate and make sure that 'Ticks Enabled' is ON"/>
+    </comp>
+    <comp loc="(620,220)" name="random-number-generator">
+      <a name="label" val="Random Number Generator"/>
+    </comp>
+    <comp lib="6" loc="(49,758)" name="Text">
+      <a name="text" val=" Pay 500"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="6" loc="(649,65)" name="Text">
+      <a name="text" val="CASINO SLOT MACHINE"/>
+      <a name="font" val="Bell MT bold 28"/>
+    </comp>
   </circuit>
   <circuit name="binary-sequence-generator-1">
     <a name="circuit" val="binary-sequence-generator-1"/>
@@ -453,27 +453,46 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(80,430)" to="(90,430)"/>
     <wire from="(140,400)" to="(210,400)"/>
     <wire from="(210,400)" to="(340,400)"/>
-    <comp lib="4" loc="(650,310)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(510,200)" name="NOT Gate">
-      <a name="facing" val="west"/>
-    </comp>
     <comp lib="1" loc="(450,490)" name="AND Gate"/>
-    <comp lib="0" loc="(70,450)" name="Pin">
+    <comp lib="0" loc="(70,400)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="1" loc="(160,170)" name="AND Gate">
+    <comp lib="1" loc="(160,230)" name="AND Gate">
       <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(120,420)" name="AND Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="4" loc="(270,310)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(530,310)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(320,230)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(120,330)" name="OR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(70,450)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
     <comp lib="6" loc="(356,112)" name="Text">
       <a name="text" val="Generates the sequence '01001'"/>
       <a name="font" val="SansSerif bold 20"/>
     </comp>
-    <comp lib="1" loc="(120,420)" name="AND Gate">
-      <a name="size" val="30"/>
+    <comp lib="0" loc="(590,490)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(160,230)" name="AND Gate">
+    <comp lib="1" loc="(160,170)" name="AND Gate">
       <a name="facing" val="west"/>
     </comp>
+    <comp lib="1" loc="(570,180)" name="NOT Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(510,200)" name="NOT Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="4" loc="(400,310)" name="D Flip-Flop"/>
     <comp lib="1" loc="(380,220)" name="NOT Gate">
       <a name="facing" val="west"/>
     </comp>
@@ -481,26 +500,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="text" val="Binary Sequence Generator 1"/>
       <a name="font" val="SansSerif bold 24"/>
     </comp>
-    <comp lib="0" loc="(70,400)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(570,180)" name="NOT Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="4" loc="(530,310)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(270,310)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(320,230)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(590,490)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="4" loc="(400,310)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(120,330)" name="OR Gate">
-      <a name="facing" val="south"/>
-    </comp>
+    <comp lib="4" loc="(650,310)" name="D Flip-Flop"/>
   </circuit>
   <circuit name="bcd-to-7 segment decoder">
     <a name="circuit" val="bcd-to-7 segment decoder"/>
@@ -687,111 +687,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(100,50)" to="(110,50)"/>
     <wire from="(100,50)" to="(100,110)"/>
     <wire from="(150,340)" to="(150,400)"/>
-    <comp lib="1" loc="(350,490)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(350,750)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(140,170)" name="NOT Gate">
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="1" loc="(210,510)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(280,940)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(210,740)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(280,160)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(40,30)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="x"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="0" loc="(440,600)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="e"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="1" loc="(280,460)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(210,890)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(210,840)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(440,750)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="f"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="1" loc="(210,180)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(280,710)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(440,430)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="d"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="6" loc="(654,443)" name="Text">
-      <a name="text" val="BCD TO 7 SEGMENT DISPLAY DECODER"/>
-      <a name="font" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="0" loc="(440,300)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="c"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="0" loc="(40,80)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="y"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="1" loc="(140,20)" name="NOT Gate">
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="1" loc="(280,240)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(280,50)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(280,300)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(350,900)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(210,570)" name="AND Gate">
+    <comp lib="1" loc="(280,860)" name="OR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
@@ -801,26 +697,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="g"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="1" loc="(280,350)" name="AND Gate">
+    <comp lib="1" loc="(350,490)" name="OR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
     <comp lib="1" loc="(210,680)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(350,380)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(280,410)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(130,50)" name="NOT Gate">
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="1" loc="(350,70)" name="OR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
@@ -830,11 +711,48 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="b"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="1" loc="(210,30)" name="AND Gate">
+    <comp lib="1" loc="(280,600)" name="OR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(280,520)" name="AND Gate">
+    <comp lib="1" loc="(280,460)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(420,430)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(280,240)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(280,160)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(210,180)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(40,30)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="x"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="6" loc="(654,443)" name="Text">
+      <a name="text" val="BCD TO 7 SEGMENT DISPLAY DECODER"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="1" loc="(350,900)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(210,740)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(210,290)" name="OR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
@@ -843,15 +761,54 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="z"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="1" loc="(210,630)" name="AND Gate">
+    <comp lib="1" loc="(280,940)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(210,290)" name="OR Gate">
+    <comp lib="1" loc="(210,840)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(280,860)" name="OR Gate">
+    <comp lib="1" loc="(280,350)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(130,50)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(280,790)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(40,80)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="y"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="1" loc="(280,520)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(210,510)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(350,750)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(210,890)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(140,170)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(210,30)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(280,410)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
@@ -861,23 +818,66 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="a"/>
       <a name="labelloc" val="north"/>
     </comp>
+    <comp lib="0" loc="(440,750)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="f"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="0" loc="(440,430)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="d"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="1" loc="(350,380)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(210,570)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(210,630)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(280,710)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(440,600)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="e"/>
+      <a name="labelloc" val="north"/>
+    </comp>
     <comp lib="1" loc="(280,100)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(280,790)" name="AND Gate">
+    <comp lib="0" loc="(440,300)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="c"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="1" loc="(350,70)" name="OR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(280,600)" name="OR Gate">
+    <comp lib="1" loc="(140,20)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(280,50)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(280,300)" name="OR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
     <comp lib="1" loc="(350,200)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(420,430)" name="OR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
@@ -937,55 +937,55 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(720,210)" to="(720,260)"/>
     <wire from="(200,400)" to="(720,400)"/>
     <wire from="(610,240)" to="(620,240)"/>
+    <comp lib="0" loc="(170,210)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(1220,200)" name="OR Gate"/>
     <comp lib="0" loc="(1270,200)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="6" loc="(160,239)" name="Text">
-      <a name="text" val="Clock "/>
-      <a name="font" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="4" loc="(500,240)" name="D Flip-Flop"/>
     <comp lib="0" loc="(1270,260)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="6" loc="(123,362)" name="Text">
-      <a name="text" val="Condition to display 7 7 7"/>
-      <a name="font" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="4" loc="(610,240)" name="D Flip-Flop"/>
-    <comp lib="6" loc="(1361,204)" name="Text">
-      <a name="text" val="BCD output"/>
-    </comp>
-    <comp lib="4" loc="(380,240)" name="D Flip-Flop"/>
-    <comp lib="0" loc="(170,330)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(170,210)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(300,260)" name="XOR Gate"/>
-    <comp lib="6" loc="(151,461)" name="Text">
-      <a name="text" val="Preset"/>
-      <a name="font" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="0" loc="(160,430)" name="Pin">
-      <a name="tristate" val="false"/>
     </comp>
     <comp lib="0" loc="(1270,140)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(1230,260)" name="OR Gate"/>
+    <comp lib="4" loc="(610,240)" name="D Flip-Flop"/>
+    <comp lib="6" loc="(1361,204)" name="Text">
+      <a name="text" val="BCD output"/>
+    </comp>
     <comp lib="1" loc="(1220,140)" name="OR Gate"/>
-    <comp lib="1" loc="(1220,200)" name="OR Gate"/>
+    <comp lib="6" loc="(160,239)" name="Text">
+      <a name="text" val="Clock "/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(160,430)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="4" loc="(380,240)" name="D Flip-Flop"/>
+    <comp lib="0" loc="(170,330)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
     <comp lib="6" loc="(609,68)" name="Text">
       <a name="text" val="Random Number Generator using LFSR"/>
       <a name="font" val="SansSerif bold 24"/>
+    </comp>
+    <comp lib="1" loc="(300,260)" name="XOR Gate"/>
+    <comp lib="1" loc="(1230,260)" name="OR Gate"/>
+    <comp lib="6" loc="(123,362)" name="Text">
+      <a name="text" val="Condition to display 7 7 7"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="4" loc="(500,240)" name="D Flip-Flop"/>
+    <comp lib="6" loc="(151,461)" name="Text">
+      <a name="text" val="Preset"/>
+      <a name="font" val="SansSerif bold 12"/>
     </comp>
   </circuit>
   <circuit name="binary-sequence-generator-2">
@@ -1031,21 +1031,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(70,220)" name="NOT Gate"/>
     <comp lib="6" loc="(266,70)" name="Text">
       <a name="text" val="Binary Sequence Generator 2"/>
       <a name="font" val="SansSerif bold 24"/>
     </comp>
-    <comp lib="1" loc="(410,380)" name="AND Gate"/>
-    <comp lib="0" loc="(30,290)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="4" loc="(490,200)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(80,310)" name="AND Gate">
-      <a name="size" val="30"/>
-    </comp>
     <comp lib="4" loc="(360,200)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(230,200)" name="D Flip-Flop"/>
     <comp lib="6" loc="(261,121)" name="Text">
       <a name="text" val="Generates the sequence '1001'"/>
       <a name="font" val="SansSerif bold 20"/>
@@ -1053,5 +1043,15 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(30,320)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
+    <comp lib="1" loc="(70,220)" name="NOT Gate"/>
+    <comp lib="4" loc="(490,200)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(410,380)" name="AND Gate"/>
+    <comp lib="0" loc="(30,290)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(80,310)" name="AND Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="4" loc="(230,200)" name="D Flip-Flop"/>
   </circuit>
 </project>
