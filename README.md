@@ -93,6 +93,10 @@
   <summary>Detail</summary>
 
   <img src="Snapshots/Logisim-snapshot.png">
+  <img src ="Snapshots/DECODER.png">
+  <img src ="Snapshots/BINARY-SEQUENCE-GENERATOR-2.png">
+  <img src ="Snapshots/BINARY-SEQUENCE-GENERATOR.png">
+  <img src ="Snapshots/RANDOM-NUMBER-GENERATOR.png">
 </details>
 
 <!-- Fifth Section -->
