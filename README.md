@@ -109,7 +109,7 @@
     //Rudransh Kumar Ankodia, 231CS249
     //Mohnish Hemanth Kumar, 231CS235
     //Aman Kumar Singh, 231CS206
-    module LFSR_3bit (input clk,input reset,input enable,input [2:0] seed,output reg [2:0] random_num);
+    module LFSR_3bit (input clk,input reset,input enable,input [2:0] seed,output reg [2:0] random_num);           //LFSR to generate Pseudo Random Numbers
         reg [2:0] lfsr;
         always @(posedge clk or posedge reset) begin
             if (reset) begin
@@ -125,9 +125,9 @@
     
     
     
-    module rng_system (input clk,input reset,input button_press,output reg [2:0] rng1,output reg [2:0] rng2,output reg [2:0] rng3);
+    module rng_system (input clk,input reset,input button_press,output reg [2:0] rng1,output reg [2:0] rng2,output reg [2:0] rng3); 
         wire clk_enable = button_press;
-        wire [2:0] seed1 = 3'b101;
+        wire [2:0] seed1 = 3'b101;      //setting intitial values
         wire [2:0] seed2 = 3'b110;
         wire [2:0] seed3 = 3'b111;
         reg [3:0] trial_count;
@@ -139,13 +139,13 @@
         LFSR_3bit rng_inst3 (.clk(clk),.reset(reset),.enable(clk_enable),.seed(seed3),.random_num(rng3_wire));
         always @(posedge clk or posedge reset) begin
             if (reset) begin
-                trial_count <= 4'd0;
+                trial_count <= 4'd0;      // reset condition
                 rng1 <= 3'd0;
                 rng2 <= 3'd0;
                 rng3 <= 3'd0;
             end
             else if (clk_enable) begin
-                if (trial_count == 4'd15 ) begin  
+                if (trial_count == 4'd15 ) begin   // win condition
                     rng1 <= 3'd7;
                     rng2 <= 3'd7;
                     rng3 <= 3'd7;
@@ -182,11 +182,11 @@
     
     `include "S2-T19.v"
 
-    module tb_rng_system;
+    module tb_rng_system;      //RNG MODULE
     reg clk;
     reg reset;
     reg button_press;
-    wire [2:0] rng1_wire_normal;
+    wire [2:0] rng1_wire_normal;        
     wire [2:0] rng2_wire_normal;
     wire [2:0] rng3_wire_normal;
 
@@ -197,7 +197,7 @@
     reg [2:0] temp_rng3_normal;
     integer i;
     
-    rng_system normal_system (
+    rng_system normal_system (           
         .clk(clk),
         .reset(reset),
         .button_press(button_press),
@@ -206,7 +206,7 @@
         .rng3(rng3_wire_normal)
     );
 
-    always #5 clk = ~clk;
+    always #5 clk = ~clk;    //Setting the clock 
 
     initial begin
         clk = 0;
@@ -222,8 +222,8 @@
         for (integer trial = 1; trial <= 24; trial = trial + 1) begin
             button_press = 1;
             #500;
-            if (trial == 6 || trial == 9 || trial == 13 || trial == 15 || 
-                trial == 18 || trial == 19 || trial == 22 || trial == 23) begin
+            if (trial == 6 || trial == 9 || trial == 13 || trial == 15 ||                                 
+                trial == 18 || trial == 19 || trial == 22 || trial == 23) begin            //Condition to display 7 7 7
                 temp_rng1_normal = 3'b111; 
                 temp_rng2_normal = 3'b111;  
                 temp_rng3_normal = 3'b111;  
