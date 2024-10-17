@@ -264,7 +264,7 @@
 
   
 <h3>Output </h3>
-<img src ="Snapshots/verilog ss.jpg">
+<img src ="Snapshots/verilog sss.jpg">
 
  </details>
 
